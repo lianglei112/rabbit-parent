@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5fccdba-2d81-4824-b57b-f4956ccb18ce" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/tools/apache-maven-3.6.3/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.6.3\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="22PsJjlBs7Vo33TczTHdsdXIG1F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rabbitmqtest" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5fccdba-2d81-4824-b57b-f4956ccb18ce" name="Default Changelist" comment="" />
+      <created>1639750486704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639750486704</updated>
+      <workItem from="1639750491624" duration="25321000" />
+      <workItem from="1639885210263" duration="2009000" />
+      <workItem from="1639898535859" duration="17454000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2472" y="182" key="#Project_Structure" timestamp="1639926198732">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="182" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639926198732" />
+    <state x="2685" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1639920624122">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639920624122" />
+    <state x="2569" y="197" key="FileChooserDialogImpl" timestamp="1639898545734">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2569" y="197" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639898545734" />
+    <state width="1876" height="127" key="GridCell.Tab.0.bottom" timestamp="1639884894726">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639884894726" />
+    <state width="1876" height="127" key="GridCell.Tab.0.center" timestamp="1639884894726">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="127" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639884894726" />
+    <state width="1876" height="127" key="GridCell.Tab.0.left" timestamp="1639884894726">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="127" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639884894726" />
+    <state width="1876" height="127" key="GridCell.Tab.0.right" timestamp="1639884894726">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="127" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639884894726" />
+    <state x="2119" y="40" width="1434" height="930" key="SettingsEditor" timestamp="1639753862631">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2119" y="40" width="1434" height="930" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639753862631" />
+    <state x="2572" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1639885212859">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2572" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639885212859" />
+    <state x="2160" y="104" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1639753421635">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2160" y="104" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639753421635" />
+    <state width="667" height="420" key="documentation.popup.size" timestamp="1639925716786">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="667" height="420" key="documentation.popup.size/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639925716786" />
+    <state width="665" height="418" key="javadoc.popup.new" timestamp="1639908141014">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="665" height="418" key="javadoc.popup.new/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639908141014" />
+    <state x="2167" y="191" width="1251" height="609" key="new project wizard" timestamp="1639752787436">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2167" y="191" width="1251" height="609" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639752787436" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1639902795322">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639902795322" />
+  </component>
+</project>
