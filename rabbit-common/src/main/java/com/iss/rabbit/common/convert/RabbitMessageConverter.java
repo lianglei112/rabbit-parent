@@ -7,7 +7,6 @@ import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageProperties;
 import org.springframework.amqp.support.converter.MessageConversionException;
 import org.springframework.amqp.support.converter.MessageConverter;
-import org.springframework.context.annotation.PropertySource;
 
 /**
  * 序列化与反序列化的装饰者模式
