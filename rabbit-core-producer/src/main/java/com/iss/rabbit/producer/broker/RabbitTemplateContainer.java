@@ -11,6 +11,7 @@ import com.iss.rabbit.common.convert.RabbitMessageConverter;
 import com.iss.rabbit.common.serializer.Serializer;
 import com.iss.rabbit.common.serializer.SerializerFactory;
 import com.iss.rabbit.common.serializer.impl.JacksonSerializerFactory;
+import com.iss.rabbit.producer.service.MessageStoreService;
 import org.assertj.core.util.Preconditions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -46,6 +47,9 @@ public class RabbitTemplateContainer implements RabbitTemplate.ConfirmCallback {
 
     private Splitter splitter = Splitter.on("#");
 
+    /**
+     * 创建序列化工厂
+     */
     private SerializerFactory serializerFactory = JacksonSerializerFactory.INSTANCE;
 
     /**
@@ -53,6 +57,12 @@ public class RabbitTemplateContainer implements RabbitTemplate.ConfirmCallback {
      */
     @Autowired
     private ConnectionFactory connectionFactory;
+
+    /**
+     * 需要改变消息的状态（注入操作数据库的service）
+     */
+    @Autowired
+    private MessageStoreService messageStoreService;
 
     /**
      * 通过ConnectionFactory创建一个RabbitTemplate对象
@@ -111,6 +121,8 @@ public class RabbitTemplateContainer implements RabbitTemplate.ConfirmCallback {
         String messageId = strings.get(0);
         Long sendTime = Long.parseLong(strings.get(1));
         if (ack) {
+            //当Broker返回ACk成功时，就需要更新一下日志表里对应的消息发送状态为SEND_SUCCESS
+            this.messageStoreService.success(messageId);
             LOGGER.info("send message is OK ， confirm messageId：{} ，snedTime：{}", messageId, sendTime);
         } else {
             LOGGER.error("send message is Fail ，confirm messageId：{} ， sendTime：{} ", messageId, sendTime);
